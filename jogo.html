@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogar - Guardião Estelar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Sobre o Jogo</a>
+        <a href="jogo.html">Jogar</a>
+        <a href="infos.html">Desenvolvedores</a>
+    </nav>
+
+    <main class="game-wrapper">
+        <section class="instrucoes">
+            <h2>Como Jogar</h2>
+            <p><strong>Objetivo:</strong> Destrua os orbes verdes antes que eles toquem o fundo da tela.</p>
+            <p><strong>Comandos:</strong> Use o <strong>Mouse</strong> para mirar e o <strong>Clique Esquerdo</strong> para disparar projéteis.</p>
+        </section>
+
+        <div id="game-container">
+            <canvas id="meuJogo" width="800" height="600"></canvas>
+            <button id="btnStart">INICIAR DEFESA</button>
+        </div>
+    </main>
+
+
+    <script src="game.js"></script>
+</body>
+</html>
