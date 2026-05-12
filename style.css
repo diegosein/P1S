@@ -1,4 +1,4 @@
-/* Reset básico para garantir que o menu fique igual em todos os navegadores */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     align-items: center;
 }
 
-/* Menu presente em todas as páginas (Requisito: 0.1) */
+
 nav {
     width: 100%;
     background-color: #16213e;
@@ -36,7 +36,7 @@ nav a:hover {
     color: #e94560;
 }
 
-/* Container do Jogo (Requisito: Canvas 0.25) */
+
 #game-container {
     margin-top: 20px;
     position: relative;
@@ -51,7 +51,7 @@ canvas {
     cursor: crosshair;
 }
 
-/* Estilização do Botão de Início (Requisito: 0.25) */
+
 #btnStart {
     position: absolute;
     top: 50%;
@@ -71,7 +71,7 @@ canvas {
     background-color: #ff2e63;
 }
 
-/* Esconde o botão quando o jogo começa */
+
 .hidden {
     display: none;
 }
